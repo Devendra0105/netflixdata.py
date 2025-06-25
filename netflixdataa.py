@@ -57,5 +57,5 @@ print(f"Rating: The most common rating in the top 5 is '{top_rating}'. That mean
 
 
 plt.tight_layout()
-plt.savefig(dpi=500,bbox_inches='tight')
+plt.savefig('Netflix_data_insights.png',dpi=500,bbox_inches='tight')
 plt.show()
